@@ -1,0 +1,82 @@
+INFO  15:29:27,952 - Compiling source file: C:\Users\Katarina\Desktop\pp1lab.templateAST\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  15:29:27,968 - #2 program
+INFO  15:29:27,968 - #3 Program
+INFO  15:29:27,969 - #18 namespace
+INFO  15:29:27,969 - #3 glovo
+INFO  15:29:27,969 - #13 {
+INFO  15:29:27,969 - #23 [
+INFO  15:29:27,969 - #3 boza
+INFO  15:29:27,969 - #22 ]
+INFO  15:29:27,971 - #13 {
+INFO  15:29:27,972 - #17 void
+INFO  15:29:27,972 - #6 }
+INFO  15:29:27,973 - #6 }
+INFO  15:29:27,973 - #18 namespace
+INFO  15:29:27,975 - #3 wolt
+INFO  15:29:27,975 - #13 {
+INFO  15:29:27,975 - #21 class
+INFO  15:29:27,975 - #13 {
+INFO  15:29:27,976 - #17 void
+INFO  15:29:27,976 - #6 }
+INFO  15:29:27,976 - #6 }
+INFO  15:29:27,977 - #23 [
+INFO  15:29:27,978 - #3 boza
+INFO  15:29:27,978 - #22 ]
+INFO  15:29:27,978 - #13 {
+INFO  15:29:27,978 - #17 void
+INFO  15:29:27,979 - #6 }
+INFO  15:29:27,981 - Program(
+  Namespaces(
+    Namespace(
+      Declarations(
+        VarDeclaration(
+          VarDecl(
+          ) [VarDecl]
+        ) [VarDeclaration]
+        NoDeclarations(
+        ) [NoDeclarations]
+      ) [Declarations]
+      MethodDeclarations(
+        MethodDeclaration(
+        ) [MethodDeclaration]
+        NoMethodDeclarations(
+        ) [NoMethodDeclarations]
+      ) [MethodDeclarations]
+    ) [Namespace]
+    Namespaces(
+      Namespace(
+        Declarations(
+          ClassDeclaration(
+            ClassDecl(
+            ) [ClassDecl]
+          ) [ClassDeclaration]
+          NoDeclarations(
+          ) [NoDeclarations]
+        ) [Declarations]
+        MethodDeclarations(
+          MethodDeclaration(
+          ) [MethodDeclaration]
+          NoMethodDeclarations(
+          ) [NoMethodDeclarations]
+        ) [MethodDeclarations]
+      ) [Namespace]
+      NoNamespaces(
+      ) [NoNamespaces]
+    ) [Namespaces]
+  ) [Namespaces]
+  Declarations(
+    VarDeclaration(
+      VarDecl(
+      ) [VarDecl]
+    ) [VarDeclaration]
+    NoDeclarations(
+    ) [NoDeclarations]
+  ) [Declarations]
+  MethodDeclarations(
+    MethodDeclaration(
+    ) [MethodDeclaration]
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+  ) [MethodDeclarations]
+) [Program]
+INFO  15:29:27,981 - ===================================

@@ -1,0 +1,15 @@
+INFO  12:23:30,869 - Compiling source file: C:\Users\Katarina\Desktop\pp1lab.templateAST\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  12:23:30,894 - #6 program
+INFO  12:23:30,894 - #2 test302
+INFO  12:23:30,894 - #16 {
+INFO  12:23:30,895 - #9 }
+INFO  12:23:30,897 - Program(
+  ProgramName(
+   test302
+  ) [ProgramName]
+  NoDeclarations(
+  ) [NoDeclarations]
+  NoMethodDeclarations(
+  ) [NoMethodDeclarations]
+) [Program]
+INFO  12:23:30,897 - ===================================

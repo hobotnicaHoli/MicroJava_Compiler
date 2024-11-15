@@ -1,0 +1,67 @@
+INFO  08:51:59,845 - Compiling source file: C:\Users\Katarina\Desktop\pp1lab.templateAST\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  08:51:59,858 - #2 program
+INFO  08:51:59,859 - #3 Program
+INFO  08:51:59,859 - #18 namespace
+INFO  08:51:59,859 - #3 glovo
+INFO  08:51:59,859 - #13 {
+INFO  08:51:59,859 - #19 const
+INFO  08:51:59,859 - #23 [
+INFO  08:51:59,859 - #3 boza
+INFO  08:51:59,859 - #22 ]
+INFO  08:51:59,859 - #13 {
+INFO  08:51:59,862 - #6 }
+INFO  08:51:59,862 - #6 }
+INFO  08:51:59,862 - #18 namespace
+INFO  08:51:59,863 - #3 wolt
+INFO  08:51:59,863 - #13 {
+INFO  08:51:59,863 - #21 class
+INFO  08:51:59,863 - #13 {
+INFO  08:51:59,864 - #6 }
+INFO  08:51:59,864 - #6 }
+INFO  08:51:59,864 - #19 const
+INFO  08:51:59,865 - #23 [
+INFO  08:51:59,865 - #3 boza
+INFO  08:51:59,865 - #22 ]
+INFO  08:51:59,865 - #13 {
+INFO  08:51:59,865 - #6 }
+INFO  08:51:59,866 - Program(
+  Namespace(
+    ConstDeclaration(
+      ConstDecl(
+      ) [ConstDecl]
+    ) [ConstDeclaration]
+    Declarations(
+      VarDeclaration(
+        VarDecl(
+        ) [VarDecl]
+      ) [VarDeclaration]
+      NoDeclarations(
+      ) [NoDeclarations]
+    ) [Declarations]
+  ) [Namespace]
+  Namespaces(
+    Namespace(
+      ClassDeclaration(
+        ClassDecl(
+        ) [ClassDecl]
+      ) [ClassDeclaration]
+      NoDeclarations(
+      ) [NoDeclarations]
+    ) [Namespace]
+    NoNamespaces(
+    ) [NoNamespaces]
+  ) [Namespaces]
+  ConstDeclaration(
+    ConstDecl(
+    ) [ConstDecl]
+  ) [ConstDeclaration]
+  Declarations(
+    VarDeclaration(
+      VarDecl(
+      ) [VarDecl]
+    ) [VarDeclaration]
+    NoDeclarations(
+    ) [NoDeclarations]
+  ) [Declarations]
+) [Program]
+INFO  08:51:59,866 - ===================================

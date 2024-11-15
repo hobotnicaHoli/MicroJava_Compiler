@@ -1,0 +1,148 @@
+INFO  15:39:26,977 - Compiling source file: C:\Users\Katarina\Desktop\pp1lab.templateAST\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  15:39:26,999 - #2 program
+INFO  15:39:26,999 - #3 Program
+INFO  15:39:26,999 - #18 namespace
+INFO  15:39:26,999 - #3 glovo
+INFO  15:39:26,999 - #13 {
+INFO  15:39:26,999 - #23 [
+INFO  15:39:27,000 - #3 boza
+INFO  15:39:27,000 - #22 ]
+INFO  15:39:27,000 - #13 {
+INFO  15:39:27,002 - #17 void
+INFO  15:39:27,002 - #6 }
+INFO  15:39:27,004 - #6 }
+INFO  15:39:27,005 - #18 namespace
+INFO  15:39:27,006 - #3 wolt
+INFO  15:39:27,006 - #13 {
+INFO  15:39:27,006 - #21 class
+INFO  15:39:27,006 - #19 const
+INFO  15:39:27,007 - #3 mis
+INFO  15:39:27,008 - #3 marko
+INFO  15:39:27,009 - #8 =
+INFO  15:39:27,010 - #3 milica
+INFO  15:39:27,010 - #14 ,
+INFO  15:39:27,012 - #3 zarko
+INFO  15:39:27,012 - #8 =
+INFO  15:39:27,012 - #35 false
+INFO  15:39:27,012 - #9 ;
+INFO  15:39:27,015 - #13 {
+INFO  15:39:27,016 - #17 void
+INFO  15:39:27,016 - #6 }
+INFO  15:39:27,016 - #6 }
+INFO  15:39:27,016 - #23 [
+INFO  15:39:27,017 - #3 boza
+INFO  15:39:27,017 - #22 ]
+INFO  15:39:27,017 - #21 class
+INFO  15:39:27,017 - #19 const
+INFO  15:39:27,017 - #3 slon
+INFO  15:39:27,017 - #44 :
+INFO  15:39:27,017 - #44 :
+INFO  15:39:27,019 - #3 macka
+INFO  15:39:27,019 - #3 milica
+INFO  15:39:27,020 - #8 =
+INFO  15:39:27,020 - #15 32
+INFO  15:39:27,020 - #14 ,
+INFO  15:39:27,021 - #3 pavle
+INFO  15:39:27,021 - #8 =
+INFO  15:39:27,021 - #35 true
+INFO  15:39:27,021 - #9 ;
+INFO  15:39:27,021 - #13 {
+INFO  15:39:27,021 - #17 void
+INFO  15:39:27,022 - #6 }
+INFO  15:39:27,024 - Program(
+  Namespaces(
+    Namespace(
+      Declarations(
+        VarDeclaration(
+          VarDecl(
+          ) [VarDecl]
+        ) [VarDeclaration]
+        NoDeclarations(
+        ) [NoDeclarations]
+      ) [Declarations]
+      MethodDeclarations(
+        MethodDeclaration(
+        ) [MethodDeclaration]
+        NoMethodDeclarations(
+        ) [NoMethodDeclarations]
+      ) [MethodDeclarations]
+    ) [Namespace]
+    Namespaces(
+      Namespace(
+        Declarations(
+          ClassDeclaration(
+            ClassDecl(
+            ) [ClassDecl]
+          ) [ClassDeclaration]
+          Declarations(
+            ConstDeclaration(
+              ConstDecl(
+                Type1(
+                ) [Type1]
+                ConstOption2(
+                ) [ConstOption2]
+                Consts(
+                  Const(
+                    ConstOption3(
+                    ) [ConstOption3]
+                  ) [Const]
+                  NoConsts(
+                  ) [NoConsts]
+                ) [Consts]
+              ) [ConstDecl]
+            ) [ConstDeclaration]
+            NoDeclarations(
+            ) [NoDeclarations]
+          ) [Declarations]
+        ) [Declarations]
+        MethodDeclarations(
+          MethodDeclaration(
+          ) [MethodDeclaration]
+          NoMethodDeclarations(
+          ) [NoMethodDeclarations]
+        ) [MethodDeclarations]
+      ) [Namespace]
+      NoNamespaces(
+      ) [NoNamespaces]
+    ) [Namespaces]
+  ) [Namespaces]
+  Declarations(
+    VarDeclaration(
+      VarDecl(
+      ) [VarDecl]
+    ) [VarDeclaration]
+    Declarations(
+      ClassDeclaration(
+        ClassDecl(
+        ) [ClassDecl]
+      ) [ClassDeclaration]
+      Declarations(
+        ConstDeclaration(
+          ConstDecl(
+            Type2(
+            ) [Type2]
+            ConstOption1(
+            ) [ConstOption1]
+            Consts(
+              Const(
+                ConstOption3(
+                ) [ConstOption3]
+              ) [Const]
+              NoConsts(
+              ) [NoConsts]
+            ) [Consts]
+          ) [ConstDecl]
+        ) [ConstDeclaration]
+        NoDeclarations(
+        ) [NoDeclarations]
+      ) [Declarations]
+    ) [Declarations]
+  ) [Declarations]
+  MethodDeclarations(
+    MethodDeclaration(
+    ) [MethodDeclaration]
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+  ) [MethodDeclarations]
+) [Program]
+INFO  15:39:27,024 - ===================================

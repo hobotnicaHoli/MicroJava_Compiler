@@ -1,0 +1,37 @@
+INFO  12:30:34,257 - Compiling source file: C:\Users\Katarina\Desktop\pp1lab.templateAST\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  12:30:34,282 - #6 program
+INFO  12:30:34,282 - #2 test302
+INFO  12:30:34,282 - #21 const
+INFO  12:30:34,282 - #2 int
+INFO  12:30:34,282 - #2 jedan
+INFO  12:30:34,282 - #11 =
+INFO  12:30:34,283 - #3 1
+INFO  12:30:34,283 - #12 ;
+INFO  12:30:34,283 - #16 {
+INFO  12:30:34,284 - #9 }
+INFO  12:30:34,284 - Program(
+  ProgramName(
+   test302
+  ) [ProgramName]
+  Declarations(
+    ConstDeclaration(
+      ConstDecl(
+        Type(
+         int
+        ) [Type]
+       jedan
+        ConstOption1(
+         1
+        ) [ConstOption1]
+        NoConsts(
+        ) [NoConsts]
+      ) [ConstDecl]
+    ) [ConstDeclaration]
+    NoDeclarations(
+    ) [NoDeclarations]
+  ) [Declarations]
+  NoMethodDeclarations(
+  ) [NoMethodDeclarations]
+) [Program]
+INFO  12:30:34,285 - ===================================
+INFO  12:30:34,289 - Deklarisan program test302 na liniji 3

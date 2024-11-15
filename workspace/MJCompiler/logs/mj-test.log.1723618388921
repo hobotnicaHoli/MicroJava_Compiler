@@ -1,0 +1,27 @@
+INFO  08:52:49,934 - Compiling source file: C:\Users\Katarina\Desktop\pp1lab.templateAST\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  08:52:49,942 - #2 program
+INFO  08:52:49,943 - #3 Program
+INFO  08:52:49,943 - #18 namespace
+INFO  08:52:49,943 - #3 glovo
+INFO  08:52:49,943 - #13 {
+INFO  08:52:49,943 - #19 const
+INFO  08:52:49,943 - #23 [
+INFO  08:52:49,944 - #3 boza
+INFO  08:52:49,944 - #22 ]
+INFO  08:52:49,944 - #13 {
+INFO  08:52:49,945 - #6 }
+INFO  08:52:49,945 - #6 }
+INFO  08:52:49,945 - #18 namespace
+INFO  08:52:49,945 - #3 wolt
+INFO  08:52:49,945 - #13 {
+INFO  08:52:49,945 - #21 class
+INFO  08:52:49,945 - #13 {
+INFO  08:52:49,947 - #6 }
+INFO  08:52:49,947 - #6 }
+INFO  08:52:49,947 - #19 const
+INFO  08:52:49,948 - #23 [
+INFO  08:52:49,948 - #3 boza
+INFO  08:52:49,948 - #22 ]
+ERROR 08:52:49,948 - 
+Sintaksna greska na liniji 7
+ERROR 08:52:49,948 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 7

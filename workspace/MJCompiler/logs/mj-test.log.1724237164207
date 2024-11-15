@@ -1,0 +1,203 @@
+INFO  12:40:19,431 - Compiling source file: C:\Users\Katarina\Desktop\pp1lab.templateAST\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  12:40:19,459 - #6 program
+INFO  12:40:19,459 - #2 test302
+INFO  12:40:19,460 - #21 const
+INFO  12:40:19,460 - #2 int
+INFO  12:40:19,460 - #2 jedan
+INFO  12:40:19,460 - #11 =
+INFO  12:40:19,460 - #3 1
+INFO  12:40:19,460 - #12 ;
+INFO  12:40:19,461 - #21 const
+INFO  12:40:19,461 - #2 bool
+INFO  12:40:19,461 - #2 kaca
+INFO  12:40:19,462 - #11 =
+INFO  12:40:19,462 - #4 false
+INFO  12:40:19,462 - #12 ;
+INFO  12:40:19,462 - #21 const
+INFO  12:40:19,462 - #2 char
+INFO  12:40:19,462 - #2 boza
+INFO  12:40:19,462 - #11 =
+INFO  12:40:19,462 - #5 b
+INFO  12:40:19,462 - #12 ;
+INFO  12:40:19,462 - #2 int
+INFO  12:40:19,462 - #2 i
+INFO  12:40:19,462 - #12 ;
+INFO  12:40:19,464 - #2 bool
+INFO  12:40:19,464 - #2 ibool
+INFO  12:40:19,464 - #12 ;
+INFO  12:40:19,464 - #2 int
+INFO  12:40:19,464 - #2 niz2
+INFO  12:40:19,464 - #12 ;
+INFO  12:40:19,464 - #2 int
+INFO  12:40:19,464 - #2 niz
+INFO  12:40:19,464 - #24 [
+INFO  12:40:19,465 - #23 ]
+INFO  12:40:19,465 - #17 ,
+INFO  12:40:19,465 - #2 niz_2
+INFO  12:40:19,465 - #24 [
+INFO  12:40:19,465 - #23 ]
+INFO  12:40:19,465 - #17 ,
+INFO  12:40:19,465 - #2 niz_3
+INFO  12:40:19,465 - #12 ;
+INFO  12:40:19,466 - #2 int
+INFO  12:40:19,466 - #2 a
+INFO  12:40:19,466 - #12 ;
+INFO  12:40:19,466 - #16 {
+INFO  12:40:19,466 - #9 }
+INFO  12:40:19,468 - Program(
+  ProgramName(
+   test302
+  ) [ProgramName]
+  Declarations(
+    ConstDeclaration(
+      ConstDecl(
+        Type(
+         int
+        ) [Type]
+       jedan
+        ConstOption1(
+         1
+        ) [ConstOption1]
+        NoConsts(
+        ) [NoConsts]
+      ) [ConstDecl]
+    ) [ConstDeclaration]
+    Declarations(
+      ConstDeclaration(
+        ConstDecl(
+          Type(
+           bool
+          ) [Type]
+         kaca
+          ConstOption3(
+           false
+          ) [ConstOption3]
+          NoConsts(
+          ) [NoConsts]
+        ) [ConstDecl]
+      ) [ConstDeclaration]
+      Declarations(
+        ConstDeclaration(
+          ConstDecl(
+            Type(
+             char
+            ) [Type]
+           boza
+            ConstOption2(
+             b
+            ) [ConstOption2]
+            NoConsts(
+            ) [NoConsts]
+          ) [ConstDecl]
+        ) [ConstDeclaration]
+        Declarations(
+          VarDeclaration(
+            VarDecl(
+              Type(
+               int
+              ) [Type]
+             i
+              VarPoss2(
+              ) [VarPoss2]
+              NoVaroviMnozina(
+              ) [NoVaroviMnozina]
+            ) [VarDecl]
+          ) [VarDeclaration]
+          Declarations(
+            VarDeclaration(
+              VarDecl(
+                Type(
+                 bool
+                ) [Type]
+               ibool
+                VarPoss2(
+                ) [VarPoss2]
+                NoVaroviMnozina(
+                ) [NoVaroviMnozina]
+              ) [VarDecl]
+            ) [VarDeclaration]
+            Declarations(
+              VarDeclaration(
+                VarDecl(
+                  Type(
+                   int
+                  ) [Type]
+                 niz2
+                  VarPoss2(
+                  ) [VarPoss2]
+                  NoVaroviMnozina(
+                  ) [NoVaroviMnozina]
+                ) [VarDecl]
+              ) [VarDeclaration]
+              Declarations(
+                VarDeclaration(
+                  VarDecl(
+                    Type(
+                     int
+                    ) [Type]
+                   niz
+                    VarPoss1(
+                    ) [VarPoss1]
+                    VaroviMnozina(
+                      VarElem(
+                       niz_2
+                        VarPoss1(
+                        ) [VarPoss1]
+                      ) [VarElem]
+                      VaroviMnozina(
+                        VarElem(
+                         niz_3
+                          VarPoss2(
+                          ) [VarPoss2]
+                        ) [VarElem]
+                        NoVaroviMnozina(
+                        ) [NoVaroviMnozina]
+                      ) [VaroviMnozina]
+                    ) [VaroviMnozina]
+                  ) [VarDecl]
+                ) [VarDeclaration]
+                Declarations(
+                  VarDeclaration(
+                    VarDecl(
+                      Type(
+                       int
+                      ) [Type]
+                     a
+                      VarPoss2(
+                      ) [VarPoss2]
+                      NoVaroviMnozina(
+                      ) [NoVaroviMnozina]
+                    ) [VarDecl]
+                  ) [VarDeclaration]
+                  NoDeclarations(
+                  ) [NoDeclarations]
+                ) [Declarations]
+              ) [Declarations]
+            ) [Declarations]
+          ) [Declarations]
+        ) [Declarations]
+      ) [Declarations]
+    ) [Declarations]
+  ) [Declarations]
+  NoMethodDeclarations(
+  ) [NoMethodDeclarations]
+) [Program]
+INFO  12:40:19,468 - ===================================
+INFO  12:40:19,473 - Deklarisan program test302 na liniji 3
+INFO  12:40:19,473 - Deklarisan tip int na liniji 5
+INFO  12:40:19,473 - Deklarisana konstanta jedan jednaka 1 na liniji 5
+INFO  12:40:19,473 - Deklarisan tip bool na liniji 7
+INFO  12:40:19,474 - Deklarisana konstanta kaca jednaka false na liniji 7
+INFO  12:40:19,474 - Deklarisan tip char na liniji 9
+INFO  12:40:19,474 - Deklarisana konstanta boza jednaka b na liniji 9
+INFO  12:40:19,474 - Deklarisan tip int na liniji 11
+INFO  12:40:19,474 - Deklarisana varijabla i na liniji 11
+INFO  12:40:19,474 - Deklarisan tip bool na liniji 12
+INFO  12:40:19,474 - Deklarisana varijabla ibool na liniji 12
+INFO  12:40:19,474 - Deklarisan tip int na liniji 14
+INFO  12:40:19,474 - Deklarisana varijabla niz2 na liniji 14
+INFO  12:40:19,474 - Deklarisan tip int na liniji 16
+INFO  12:40:19,474 - Deklarisana varijabla niz na liniji 16
+INFO  12:40:19,474 - Deklarisan tip int na liniji 17
+INFO  12:40:19,474 - Deklarisana varijabla a na liniji 17
+INFO  12:40:19,474 - Zavrsen program test302 na liniji 3

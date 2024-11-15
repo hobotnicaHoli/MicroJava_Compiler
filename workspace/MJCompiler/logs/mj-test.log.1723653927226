@@ -1,0 +1,346 @@
+INFO  18:44:49,728 - Compiling source file: C:\Users\Katarina\Desktop\pp1lab.templateAST\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  18:44:49,759 - #2 program
+INFO  18:44:49,760 - #3 Program
+INFO  18:44:49,760 - #18 namespace
+INFO  18:44:49,760 - #3 glovo
+INFO  18:44:49,760 - #13 {
+INFO  18:44:49,760 - #3 varka
+INFO  18:44:49,760 - #44 :
+INFO  18:44:49,760 - #44 :
+INFO  18:44:49,762 - #3 var1
+INFO  18:44:49,762 - #3 varnica
+INFO  18:44:49,763 - #23 [
+INFO  18:44:49,763 - #22 ]
+INFO  18:44:49,764 - #14 ,
+INFO  18:44:49,765 - #3 varnica2
+INFO  18:44:49,766 - #23 [
+INFO  18:44:49,766 - #22 ]
+INFO  18:44:49,766 - #9 ;
+INFO  18:44:49,767 - #13 {
+INFO  18:44:49,769 - #17 void
+INFO  18:44:49,770 - #3 Method1
+INFO  18:44:49,772 - #12 (
+INFO  18:44:49,772 - #7 )
+INFO  18:44:49,773 - #3 varcic
+INFO  18:44:49,773 - #3 VARKO
+INFO  18:44:49,774 - #23 [
+INFO  18:44:49,775 - #22 ]
+INFO  18:44:49,775 - #9 ;
+INFO  18:44:49,775 - #13 {
+INFO  18:44:49,776 - #17 void
+INFO  18:44:49,776 - #9 ;
+INFO  18:44:49,778 - #6 }
+INFO  18:44:49,778 - #6 }
+INFO  18:44:49,780 - #6 }
+INFO  18:44:49,780 - #18 namespace
+INFO  18:44:49,781 - #3 wolt
+INFO  18:44:49,781 - #13 {
+INFO  18:44:49,781 - #21 class
+INFO  18:44:49,781 - #19 const
+INFO  18:44:49,783 - #3 mis
+INFO  18:44:49,783 - #3 marko
+INFO  18:44:49,783 - #8 =
+INFO  18:44:49,783 - #3 milica
+INFO  18:44:49,783 - #14 ,
+INFO  18:44:49,784 - #3 zarko
+INFO  18:44:49,784 - #8 =
+INFO  18:44:49,784 - #35 false
+INFO  18:44:49,785 - #9 ;
+INFO  18:44:49,787 - #13 {
+INFO  18:44:49,788 - #3 intic
+INFO  18:44:49,788 - #44 :
+INFO  18:44:49,788 - #44 :
+INFO  18:44:49,788 - #3 integercic
+INFO  18:44:49,788 - #3 Method2
+INFO  18:44:49,789 - #12 (
+INFO  18:44:49,789 - #3 type1
+INFO  18:44:49,789 - #44 :
+INFO  18:44:49,789 - #44 :
+INFO  18:44:49,789 - #3 t1
+INFO  18:44:49,789 - #3 prviparam
+INFO  18:44:49,789 - #23 [
+INFO  18:44:49,790 - #22 ]
+INFO  18:44:49,790 - #14 ,
+INFO  18:44:49,790 - #3 t2
+INFO  18:44:49,790 - #3 drugiparam
+INFO  18:44:49,790 - #23 [
+INFO  18:44:49,790 - #22 ]
+INFO  18:44:49,790 - #7 )
+INFO  18:44:49,794 - #3 varcic
+INFO  18:44:49,795 - #3 VARKO
+INFO  18:44:49,795 - #23 [
+INFO  18:44:49,795 - #22 ]
+INFO  18:44:49,795 - #9 ;
+INFO  18:44:49,795 - #13 {
+INFO  18:44:49,795 - #11 if
+INFO  18:44:49,795 - #12 (
+INFO  18:44:49,795 - #5 +
+INFO  18:44:49,795 - #7 )
+INFO  18:44:49,797 - #30 break
+INFO  18:44:49,797 - #9 ;
+INFO  18:44:49,797 - #4 else
+INFO  18:44:49,799 - #33 continue
+INFO  18:44:49,799 - #9 ;
+INFO  18:44:49,800 - #6 }
+INFO  18:44:49,801 - #6 }
+INFO  18:44:49,802 - #6 }
+INFO  18:44:49,802 - #3 varcic
+INFO  18:44:49,803 - #3 varko
+INFO  18:44:49,803 - #14 ,
+INFO  18:44:49,803 - #3 varijabilnost
+INFO  18:44:49,803 - #23 [
+INFO  18:44:49,804 - #22 ]
+INFO  18:44:49,804 - #9 ;
+INFO  18:44:49,804 - #21 class
+INFO  18:44:49,804 - #19 const
+INFO  18:44:49,804 - #3 slon
+INFO  18:44:49,804 - #44 :
+INFO  18:44:49,804 - #44 :
+INFO  18:44:49,804 - #3 macka
+INFO  18:44:49,804 - #3 milica
+INFO  18:44:49,805 - #8 =
+INFO  18:44:49,805 - #15 32
+INFO  18:44:49,805 - #14 ,
+INFO  18:44:49,805 - #3 pavle
+INFO  18:44:49,806 - #8 =
+INFO  18:44:49,806 - #35 true
+INFO  18:44:49,806 - #9 ;
+INFO  18:44:49,806 - #13 {
+INFO  18:44:49,806 - #17 void
+INFO  18:44:49,806 - #3 Method3
+INFO  18:44:49,806 - #12 (
+INFO  18:44:49,806 - #7 )
+INFO  18:44:49,807 - #13 {
+INFO  18:44:49,807 - #13 {
+INFO  18:44:49,807 - #11 if
+INFO  18:44:49,807 - #12 (
+INFO  18:44:49,807 - #5 +
+INFO  18:44:49,807 - #7 )
+INFO  18:44:49,808 - #10 return
+INFO  18:44:49,808 - #9 ;
+INFO  18:44:49,808 - #33 continue
+INFO  18:44:49,810 - #9 ;
+INFO  18:44:49,810 - #6 }
+INFO  18:44:49,810 - #6 }
+INFO  18:44:49,810 - #6 }
+INFO  18:44:49,812 - Program(
+  Namespaces(
+    Namespace(
+      Declarations(
+        VarDeclaration(
+          VarDecl(
+            Type2(
+            ) [Type2]
+            VarPoss1(
+            ) [VarPoss1]
+            VaroviMnozina(
+              VarElem(
+                VarPoss1(
+                ) [VarPoss1]
+              ) [VarElem]
+              NoVaroviMnozina(
+              ) [NoVaroviMnozina]
+            ) [VaroviMnozina]
+          ) [VarDecl]
+        ) [VarDeclaration]
+        NoDeclarations(
+        ) [NoDeclarations]
+      ) [Declarations]
+      MethodDeclarations(
+        MethodDeclaration(
+          MethodOption2(
+          ) [MethodOption2]
+          FormOption2(
+          ) [FormOption2]
+          VaroviLista(
+            VarDecl(
+              Type1(
+              ) [Type1]
+              VarPoss1(
+              ) [VarPoss1]
+              NoVaroviMnozina(
+              ) [NoVaroviMnozina]
+            ) [VarDecl]
+            NoVaroviLista(
+            ) [NoVaroviLista]
+          ) [VaroviLista]
+          Statements(
+            Statement1(
+              DesignatorStatementDerived1(
+              ) [DesignatorStatementDerived1]
+            ) [Statement1]
+            NoStatements(
+            ) [NoStatements]
+          ) [Statements]
+        ) [MethodDeclaration]
+        NoMethodDeclarations(
+        ) [NoMethodDeclarations]
+      ) [MethodDeclarations]
+    ) [Namespace]
+    Namespaces(
+      Namespace(
+        Declarations(
+          ClassDeclaration(
+            ClassDecl(
+            ) [ClassDecl]
+          ) [ClassDeclaration]
+          Declarations(
+            ConstDeclaration(
+              ConstDecl(
+                Type1(
+                ) [Type1]
+                ConstOption2(
+                ) [ConstOption2]
+                Consts(
+                  Const(
+                    ConstOption3(
+                    ) [ConstOption3]
+                  ) [Const]
+                  NoConsts(
+                  ) [NoConsts]
+                ) [Consts]
+              ) [ConstDecl]
+            ) [ConstDeclaration]
+            NoDeclarations(
+            ) [NoDeclarations]
+          ) [Declarations]
+        ) [Declarations]
+        MethodDeclarations(
+          MethodDeclaration(
+            MethodOption1(
+              Type2(
+              ) [Type2]
+            ) [MethodOption1]
+            FormOption1(
+              FormPars(
+                Type2(
+                ) [Type2]
+                VarPoss1(
+                ) [VarPoss1]
+                MultipleFormPars(
+                  FormPar(
+                    Type1(
+                    ) [Type1]
+                    VarPoss1(
+                    ) [VarPoss1]
+                  ) [FormPar]
+                  NoMultipleFormPars(
+                  ) [NoMultipleFormPars]
+                ) [MultipleFormPars]
+              ) [FormPars]
+            ) [FormOption1]
+            VaroviLista(
+              VarDecl(
+                Type1(
+                ) [Type1]
+                VarPoss1(
+                ) [VarPoss1]
+                NoVaroviMnozina(
+                ) [NoVaroviMnozina]
+              ) [VarDecl]
+              NoVaroviLista(
+              ) [NoVaroviLista]
+            ) [VaroviLista]
+            Statements(
+              Statement2(
+                IFOpt1(
+                  ConditionDerived1(
+                  ) [ConditionDerived1]
+                  Statement4(
+                  ) [Statement4]
+                  Statement5(
+                  ) [Statement5]
+                ) [IFOpt1]
+              ) [Statement2]
+              NoStatements(
+              ) [NoStatements]
+            ) [Statements]
+          ) [MethodDeclaration]
+          NoMethodDeclarations(
+          ) [NoMethodDeclarations]
+        ) [MethodDeclarations]
+      ) [Namespace]
+      NoNamespaces(
+      ) [NoNamespaces]
+    ) [Namespaces]
+  ) [Namespaces]
+  Declarations(
+    VarDeclaration(
+      VarDecl(
+        Type1(
+        ) [Type1]
+        VarPoss2(
+        ) [VarPoss2]
+        VaroviMnozina(
+          VarElem(
+            VarPoss1(
+            ) [VarPoss1]
+          ) [VarElem]
+          NoVaroviMnozina(
+          ) [NoVaroviMnozina]
+        ) [VaroviMnozina]
+      ) [VarDecl]
+    ) [VarDeclaration]
+    Declarations(
+      ClassDeclaration(
+        ClassDecl(
+        ) [ClassDecl]
+      ) [ClassDeclaration]
+      Declarations(
+        ConstDeclaration(
+          ConstDecl(
+            Type2(
+            ) [Type2]
+            ConstOption1(
+            ) [ConstOption1]
+            Consts(
+              Const(
+                ConstOption3(
+                ) [ConstOption3]
+              ) [Const]
+              NoConsts(
+              ) [NoConsts]
+            ) [Consts]
+          ) [ConstDecl]
+        ) [ConstDeclaration]
+        NoDeclarations(
+        ) [NoDeclarations]
+      ) [Declarations]
+    ) [Declarations]
+  ) [Declarations]
+  MethodDeclarations(
+    MethodDeclaration(
+      MethodOption2(
+      ) [MethodOption2]
+      FormOption2(
+      ) [FormOption2]
+      NoVaroviLista(
+      ) [NoVaroviLista]
+      Statements(
+        Statement12(
+          Statements(
+            Statement3(
+              IFOpt2(
+                ConditionDerived1(
+                ) [ConditionDerived1]
+                Statement6(
+                ) [Statement6]
+              ) [IFOpt2]
+            ) [Statement3]
+            Statements(
+              Statement5(
+              ) [Statement5]
+              NoStatements(
+              ) [NoStatements]
+            ) [Statements]
+          ) [Statements]
+        ) [Statement12]
+        NoStatements(
+        ) [NoStatements]
+      ) [Statements]
+    ) [MethodDeclaration]
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+  ) [MethodDeclarations]
+) [Program]
+INFO  18:44:49,814 - ===================================

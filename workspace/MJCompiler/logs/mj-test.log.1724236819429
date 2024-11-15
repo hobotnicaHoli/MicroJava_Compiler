@@ -1,0 +1,109 @@
+INFO  12:37:15,184 - Compiling source file: C:\Users\Katarina\Desktop\pp1lab.templateAST\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  12:37:15,208 - #6 program
+INFO  12:37:15,208 - #2 test302
+INFO  12:37:15,208 - #21 const
+INFO  12:37:15,209 - #2 int
+INFO  12:37:15,209 - #2 jedan
+INFO  12:37:15,209 - #11 =
+INFO  12:37:15,209 - #3 1
+INFO  12:37:15,209 - #12 ;
+INFO  12:37:15,210 - #21 const
+INFO  12:37:15,210 - #2 bool
+INFO  12:37:15,210 - #2 kaca
+INFO  12:37:15,210 - #11 =
+INFO  12:37:15,210 - #4 false
+INFO  12:37:15,210 - #12 ;
+INFO  12:37:15,212 - #21 const
+INFO  12:37:15,212 - #2 bool
+INFO  12:37:15,212 - #2 kaca
+INFO  12:37:15,212 - #11 =
+INFO  12:37:15,212 - #4 true
+INFO  12:37:15,212 - #12 ;
+INFO  12:37:15,218 - #21 const
+INFO  12:37:15,218 - #2 char
+INFO  12:37:15,218 - #2 boza
+INFO  12:37:15,218 - #11 =
+INFO  12:37:15,218 - #5 b
+INFO  12:37:15,218 - #12 ;
+INFO  12:37:15,218 - #16 {
+INFO  12:37:15,218 - #9 }
+INFO  12:37:15,219 - Program(
+  ProgramName(
+   test302
+  ) [ProgramName]
+  Declarations(
+    ConstDeclaration(
+      ConstDecl(
+        Type(
+         int
+        ) [Type]
+       jedan
+        ConstOption1(
+         1
+        ) [ConstOption1]
+        NoConsts(
+        ) [NoConsts]
+      ) [ConstDecl]
+    ) [ConstDeclaration]
+    Declarations(
+      ConstDeclaration(
+        ConstDecl(
+          Type(
+           bool
+          ) [Type]
+         kaca
+          ConstOption3(
+           false
+          ) [ConstOption3]
+          NoConsts(
+          ) [NoConsts]
+        ) [ConstDecl]
+      ) [ConstDeclaration]
+      Declarations(
+        ConstDeclaration(
+          ConstDecl(
+            Type(
+             bool
+            ) [Type]
+           kaca
+            ConstOption3(
+             true
+            ) [ConstOption3]
+            NoConsts(
+            ) [NoConsts]
+          ) [ConstDecl]
+        ) [ConstDeclaration]
+        Declarations(
+          ConstDeclaration(
+            ConstDecl(
+              Type(
+               char
+              ) [Type]
+             boza
+              ConstOption2(
+               b
+              ) [ConstOption2]
+              NoConsts(
+              ) [NoConsts]
+            ) [ConstDecl]
+          ) [ConstDeclaration]
+          NoDeclarations(
+          ) [NoDeclarations]
+        ) [Declarations]
+      ) [Declarations]
+    ) [Declarations]
+  ) [Declarations]
+  NoMethodDeclarations(
+  ) [NoMethodDeclarations]
+) [Program]
+INFO  12:37:15,219 - ===================================
+INFO  12:37:15,224 - Deklarisan program test302 na liniji 3
+INFO  12:37:15,224 - Deklarisan tip int na liniji 5
+INFO  12:37:15,224 - Deklarisana konstanta jedan jednaka 1 na liniji 5
+INFO  12:37:15,224 - Deklarisan tip bool na liniji 7
+INFO  12:37:15,224 - Deklarisana konstanta kaca jednaka false na liniji 7
+INFO  12:37:15,224 - Deklarisan tip bool na liniji 9
+ERROR 12:37:15,224 - Greska na liniji 9 : promenljiva sa nazivom kaca je vec deklarisana
+INFO  12:37:15,224 - Deklarisan tip char na liniji 11
+INFO  12:37:15,224 - Deklarisana konstanta boza jednaka b na liniji 11
+INFO  12:37:15,224 - Zavrsen program test302 na liniji 3

@@ -1,0 +1,8 @@
+INFO  17:52:01,454 - Compiling source file: C:\Users\Katarina\Desktop\pp1lab.templateAST\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  17:52:01,495 - #6 program
+INFO  17:52:01,495 - #2 test302
+INFO  17:52:01,496 - #21 const
+INFO  17:52:01,496 - #22 int
+ERROR 17:52:01,497 - 
+Sintaksna greska na liniji 5
+ERROR 17:52:01,497 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 5

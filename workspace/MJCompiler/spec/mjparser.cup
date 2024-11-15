@@ -1,0 +1,294 @@
+
+
+package rs.ac.bg.etf.pp1;
+
+import java_cup.runtime.*;
+import org.apache.log4j.*;
+import rs.ac.bg.etf.pp1.ast.*;
+
+parser code {:
+
+	Logger log = Logger.getLogger(getClass());
+   
+   
+    // slede redefinisani metodi za prijavu gresaka radi izmene teksta poruke
+     
+    public void report_fatal_error(String message, Object info) throws java.lang.Exception {
+      done_parsing();
+      report_error(message, info);
+    }
+  
+    public void syntax_error(Symbol cur_token) {
+        report_error("\nSintaksna greska", cur_token);
+    }
+  
+    public void unrecovered_syntax_error(Symbol cur_token) throws java.lang.Exception {
+        report_fatal_error("Fatalna greska, parsiranje se ne moze nastaviti", cur_token);
+    }
+
+    public void report_error(String message, Object info) {
+    	StringBuilder msg = new StringBuilder(message); 
+    	if (info instanceof Symbol)
+            msg.append (" na liniji ").append(((Symbol)info).left);
+        log.error(msg.toString());
+    }
+
+
+:}
+
+
+scan with {:
+	Symbol s = this.getScanner().next_token();
+	if (s != null && s.value != null) 
+		log.info(s.toString() + " " + s.value.toString());
+	return s;
+:}
+
+terminal String IDENT;
+terminal Integer NUMBER;
+terminal Boolean TRUEFALSE;
+terminal Character CHARCONST;
+terminal PROG,ELSE,PLUS,RBRACE,RPAREN,EQUAL,SEMI;
+terminal RETURN,IF,LPAREN,LBRACE,COMMA,PRINT,VOID;
+terminal NAMESPACE,CONST,CLASS,RUPAR,LUPAR,STATIC,POINT;
+terminal NEW,FOR,MINUS,BREAK,READ,EXTENDS,CONTINUE;
+terminal MUL,DIV,PERCENT,EXCL,GREATER,LESS,AND,OR,COLON;
+
+nonterminal Declaration, DeclarationList, MethodDeclarationList;
+nonterminal ClassDecl;
+nonterminal ConstList, VarPossibility, FormParsVarPossibility, VarList;
+nonterminal FormParsOption, VarDeclList, StatementList;
+nonterminal FormParsList;
+nonterminal DesignatorStatement;
+nonterminal StatementOpt1, StatementOpt2;
+nonterminal DesignatorStatementList;
+nonterminal DesStmtOptions, DesignListRight;
+nonterminal Assignop, ActPars, ExprList;
+nonterminal Relop;
+nonterminal Addop, Mulop, Minus;
+nonterminal IdentOrExprList, FactorMethodParams;
+
+nonterminal rs.etf.pp1.symboltable.concepts.Obj ProgramName, Program, ConstDecl, Const, VarDecl, MethodName, VarElem;
+nonterminal rs.etf.pp1.symboltable.concepts.Obj MethodDeclaration, FormPars, FormPar, For, Statement, IFOpt1, IFOpt2;
+nonterminal rs.etf.pp1.symboltable.concepts.Obj Designator, DesignatorName;
+nonterminal rs.etf.pp1.symboltable.concepts.Struct ConstOption, Type, MethodOption, Factor, Expr, ExprSpecial, CondFact, AddopTermList;
+nonterminal rs.etf.pp1.symboltable.concepts.Struct CondTerm, CondTermList, CondFactList, Condition, Term, MulopFactorList;
+
+precedence left ELSE;
+
+Program ::= (Program) PROG ProgramName DeclarationList LBRACE MethodDeclarationList RBRACE ;
+
+ProgramName ::= (ProgramName) IDENT:progName;
+
+DeclarationList ::= (Declarations) Declaration DeclarationList
+					|
+					(NoDeclarations) /*nada*/
+					;
+					
+Declaration ::= (ConstDeclaration) ConstDecl
+					| (VarDeclaration) VarDecl
+					;
+					
+ConstDecl ::= (ConstDecl) CONST Type IDENT:constName EQUAL ConstOption ConstList SEMI;
+
+
+MethodDeclarationList ::= (MethodDeclarations) MethodDeclaration MethodDeclarationList
+					| (NoMethodDeclarations) /*nada*/
+					;
+					
+MethodDeclaration ::= (MethodDeclaration) MethodOption MethodName LPAREN FormParsOption RPAREN VarDeclList LBRACE StatementList RBRACE ;
+
+MethodName ::= (MethodName) IDENT:methodName ;
+
+MethodOption ::= (MethodOption1) Type
+				| (MethodOption2) VOID
+				;
+
+FormParsOption ::= (FormOption1) FormPars
+					| (FormOption2) /*nada*/
+					;
+					
+FormPars ::= (FormPars) Type IDENT:paramName FormParsVarPossibility FormParsList ;
+
+FormParsList ::= (MultipleFormPars) FormPar FormParsList
+					| (NoMultipleFormPars) /*nada*/`
+					;
+
+FormPar ::= (FormPar) COMMA Type IDENT:paramName FormParsVarPossibility ;
+
+VarDeclList ::= (VaroviLista) VarDecl VarDeclList
+				| (NoVaroviLista) /*nada*/
+				;
+
+Type ::= (Type) IDENT:typeName ;
+		
+
+ConstList ::= (Consts) Const ConstList 
+				| (NoConsts) /*nada*/ 
+				;
+				
+Const ::= (Const) COMMA IDENT:constName EQUAL ConstOption ;
+
+ConstOption ::= (ConstOption1) NUMBER:nVal
+				| (ConstOption2) CHARCONST:cVal
+				| (ConstOption3) TRUEFALSE:bVal
+				;
+
+VarDecl ::= (VarDecl) Type IDENT:varName VarPossibility VarList SEMI ;
+					
+VarList ::= (VaroviMnozina) VarElem VarList
+			| (NoVaroviMnozina) /*nada*/
+			;
+
+VarElem ::= (VarElem) COMMA IDENT:varName VarPossibility;
+
+VarPossibility ::= (VarPoss1) LUPAR RUPAR
+					| (VarPoss3) LUPAR RUPAR LUPAR RUPAR 
+					| (VarPoss2) /*nada*/
+					;
+					
+FormParsVarPossibility ::= (FormParsVar1) LUPAR RUPAR
+							| (FormParsVar2) /*nada*/
+							;
+					
+StatementList ::= (Statements) Statement StatementList
+					| (NoStatements) /*nada*/
+					;
+
+Statement ::= (Statement1) DesignatorStatement SEMI
+				| (Statement2) IFOpt1
+				| (Statement3) IFOpt2
+				| (Statement4) BREAK SEMI
+				| (Statement5) CONTINUE SEMI
+				| (Statement6) RETURN SEMI
+				| (Statement7) RETURN Expr SEMI
+				| (Statement8) READ LPAREN Designator RPAREN SEMI
+				| (Statement9) PRINT LPAREN Expr RPAREN SEMI
+				| (Statement10) PRINT LPAREN Expr COMMA NUMBER RPAREN SEMI
+				| (Statement11) For LPAREN StatementOpt1 SEMI StatementOpt2 SEMI StatementOpt1 RPAREN Statement
+				| (Statement12) LBRACE StatementList RBRACE
+				;
+				
+For ::= (For) FOR ;
+			
+IFOpt1 ::= (IFOpt1) IF LPAREN Condition RPAREN Statement ELSE Statement ;
+
+IFOpt2 ::= (IFOpt2) IF LPAREN Condition RPAREN Statement ;
+				
+StatementOpt1 ::= (YesStatementOpt1) DesignatorStatement DesignatorStatementList
+				| (NoStatementOpt1) /*nada*/
+				;
+
+StatementOpt2 ::= (StatementOpt21) CondFact
+					| (NoStatementOpt2) /*nada*/
+					;
+
+DesignatorStatementList ::= (DesignatorStatements) COMMA DesignatorStatement DesignatorStatementList
+							| (NoDesignatorStatements) /*nada*/
+							;
+
+DesignatorStatement ::= (DesignStmt1)Designator DesStmtOptions
+						| (DesignStmt2) LUPAR DesignListRight MUL Designator RUPAR EQUAL Designator
+						;
+						
+
+
+DesStmtOptions ::= (DesStmtOpt1) Assignop Expr
+					| (DesStmtOpt2) LPAREN RPAREN
+					| (DesStmtOpt3) LPAREN ActPars RPAREN
+					| (DesStmtOpt4) PLUS PLUS
+					| (DesStmtOpt5) MINUS MINUS
+					;
+
+DesignListRight ::= (DesignatorRights) Designator COMMA DesignListRight
+					| (DesignatorRightsComma) COMMA DesignListRight
+					| (NoDesignatorRights) /*nada*/
+					;
+
+Assignop ::= (Assignop) EQUAL;
+
+ActPars ::= (ActPars) Expr ExprList;
+
+ExprList ::= (Exprs) COMMA Expr ExprList
+			| (NoExprs) /*nada*/
+			;	
+
+Condition ::= (Condition) CondTerm CondTermList;
+
+CondTerm ::= (CondTerm) CondFact CondFactList;
+
+CondFactList ::= (CondFacts) AND AND CondFact CondFactList
+				| (NoCondFacts) /*nada*/
+				;
+
+CondTermList ::= (CondTerms) OR OR CondTerm CondTermList
+				| (NoCondTerms) /*nada*/
+				;
+
+CondFact ::= (CondFact1) Expr
+				| (CondFact2) Expr Relop Expr
+				;
+
+Expr ::= (Expr1) Term AddopTermList
+		| (Expr2) Minus Term AddopTermList
+		;
+		
+		
+Minus ::= (Minus) MINUS ;
+		
+Term ::= (Term) Factor MulopFactorList ;
+
+
+AddopTermList ::= (AddopTerms) Addop Term AddopTermList
+					| (NoAddopTerms) /*nada*/
+					;
+
+Designator ::= (Designator) DesignatorName IdentOrExprList ;
+				
+DesignatorName ::= (DesignatorName) IDENT:desName ;
+				
+IdentOrExprList ::= (Express) LUPAR Expr RUPAR
+					| (ExpressMatrix) LUPAR Expr RUPAR LUPAR Expr RUPAR
+					| (NoIdentOrExpr) /*nada*/
+					;
+
+Addop ::= (AddopPlus) PLUS
+			| (AddopMinus) MINUS
+			;
+
+Factor ::= (Factor1) Designator 
+			| (Factor2) Designator LPAREN RPAREN
+			| (Factor3) Designator LPAREN ActPars RPAREN
+			| (FactoruNm) NUMBER:nVal
+			| (FactorChar) CHARCONST:cVal
+			| (FactorBool) TRUEFALSE:bVal
+			| (Factor7) NEW Type LUPAR Expr RUPAR 
+			| (Factor9) NEW Type LUPAR Expr RUPAR LUPAR Expr RUPAR /* added for matrix */
+			| (Factor8) LPAREN Expr RPAREN
+			;
+			
+
+
+MulopFactorList ::= (MulopFactors) MulopFactorList Mulop Factor 
+					| (NoMulopFactors) /*nada*/
+					;
+					
+Mulop ::= (MulopMul) MUL
+		| (MulopDiv) DIV
+		| (MulopPercent) PERCENT
+		;
+		
+Relop ::= (DoubleEqual) EQUAL EQUAL
+			| (NotEqual) EXCL EQUAL
+			| (OnlyGreater) GREATER
+			| (GreaterEqual) GREATER EQUAL
+			| (OnlyLess) LESS
+			| (LessEqual) LESS EQUAL
+			;
+
+
+
+
+
+
+

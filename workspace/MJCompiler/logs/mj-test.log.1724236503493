@@ -1,0 +1,86 @@
+INFO  12:34:24,989 - Compiling source file: C:\Users\Katarina\Desktop\pp1lab.templateAST\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  12:34:25,015 - #6 program
+INFO  12:34:25,015 - #2 test302
+INFO  12:34:25,015 - #21 const
+INFO  12:34:25,015 - #2 int
+INFO  12:34:25,015 - #2 jedan
+INFO  12:34:25,016 - #11 =
+INFO  12:34:25,016 - #3 1
+INFO  12:34:25,016 - #12 ;
+INFO  12:34:25,016 - #21 const
+INFO  12:34:25,016 - #2 bool
+INFO  12:34:25,017 - #2 kaca
+INFO  12:34:25,017 - #11 =
+INFO  12:34:25,017 - #4 false
+INFO  12:34:25,017 - #12 ;
+INFO  12:34:25,017 - #21 const
+INFO  12:34:25,017 - #2 char
+INFO  12:34:25,017 - #2 boza
+INFO  12:34:25,017 - #11 =
+INFO  12:34:25,017 - #5 b
+INFO  12:34:25,017 - #12 ;
+INFO  12:34:25,017 - #16 {
+INFO  12:34:25,018 - #9 }
+INFO  12:34:25,018 - Program(
+  ProgramName(
+   test302
+  ) [ProgramName]
+  Declarations(
+    ConstDeclaration(
+      ConstDecl(
+        Type(
+         int
+        ) [Type]
+       jedan
+        ConstOption1(
+         1
+        ) [ConstOption1]
+        NoConsts(
+        ) [NoConsts]
+      ) [ConstDecl]
+    ) [ConstDeclaration]
+    Declarations(
+      ConstDeclaration(
+        ConstDecl(
+          Type(
+           bool
+          ) [Type]
+         kaca
+          ConstOption3(
+           false
+          ) [ConstOption3]
+          NoConsts(
+          ) [NoConsts]
+        ) [ConstDecl]
+      ) [ConstDeclaration]
+      Declarations(
+        ConstDeclaration(
+          ConstDecl(
+            Type(
+             char
+            ) [Type]
+           boza
+            ConstOption2(
+             b
+            ) [ConstOption2]
+            NoConsts(
+            ) [NoConsts]
+          ) [ConstDecl]
+        ) [ConstDeclaration]
+        NoDeclarations(
+        ) [NoDeclarations]
+      ) [Declarations]
+    ) [Declarations]
+  ) [Declarations]
+  NoMethodDeclarations(
+  ) [NoMethodDeclarations]
+) [Program]
+INFO  12:34:25,018 - ===================================
+INFO  12:34:25,023 - Deklarisan program test302 na liniji 3
+INFO  12:34:25,023 - Deklarisan tip int na liniji 5
+INFO  12:34:25,023 - Deklarisana konstanta jedan jednaka 1 na liniji 5
+INFO  12:34:25,023 - Deklarisan tip bool na liniji 7
+INFO  12:34:25,024 - Deklarisana konstanta kaca jednaka false na liniji 7
+INFO  12:34:25,024 - Deklarisan tip char na liniji 9
+INFO  12:34:25,024 - Deklarisana konstanta boza jednaka b na liniji 9
+INFO  12:34:25,024 - Zavrsen program test302 na liniji 3

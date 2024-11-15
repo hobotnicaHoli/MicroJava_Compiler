@@ -1,0 +1,513 @@
+INFO  17:19:23,383 - Compiling source file: C:\Users\Katarina\Desktop\pp1lab.templateAST\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  17:19:23,428 - #6 program
+INFO  17:19:23,429 - #2 test302
+INFO  17:19:23,429 - #21 const
+INFO  17:19:23,429 - #2 int
+INFO  17:19:23,430 - #2 jedan
+INFO  17:19:23,430 - #11 =
+INFO  17:19:23,430 - #3 1
+INFO  17:19:23,430 - #17 ,
+INFO  17:19:23,431 - #2 slavica
+INFO  17:19:23,431 - #11 =
+INFO  17:19:23,431 - #3 5
+INFO  17:19:23,431 - #12 ;
+INFO  17:19:23,432 - #21 const
+INFO  17:19:23,434 - #2 bool
+INFO  17:19:23,434 - #2 kaca
+INFO  17:19:23,434 - #11 =
+INFO  17:19:23,434 - #4 false
+INFO  17:19:23,434 - #12 ;
+INFO  17:19:23,434 - #21 const
+INFO  17:19:23,434 - #2 char
+INFO  17:19:23,440 - #2 boza
+INFO  17:19:23,440 - #11 =
+INFO  17:19:23,440 - #5 b
+INFO  17:19:23,440 - #12 ;
+INFO  17:19:23,440 - #2 int
+INFO  17:19:23,440 - #2 i
+INFO  17:19:23,441 - #12 ;
+INFO  17:19:23,443 - #2 bool
+INFO  17:19:23,444 - #2 ibool
+INFO  17:19:23,444 - #12 ;
+INFO  17:19:23,444 - #2 int
+INFO  17:19:23,444 - #2 niz2
+INFO  17:19:23,444 - #12 ;
+INFO  17:19:23,445 - #2 int
+INFO  17:19:23,445 - #2 niz
+INFO  17:19:23,445 - #24 [
+INFO  17:19:23,445 - #23 ]
+INFO  17:19:23,445 - #17 ,
+INFO  17:19:23,446 - #2 niz_2
+INFO  17:19:23,446 - #24 [
+INFO  17:19:23,446 - #23 ]
+INFO  17:19:23,446 - #17 ,
+INFO  17:19:23,448 - #2 niz_3
+INFO  17:19:23,448 - #12 ;
+INFO  17:19:23,448 - #2 int
+INFO  17:19:23,448 - #2 a
+INFO  17:19:23,448 - #12 ;
+INFO  17:19:23,449 - #16 {
+INFO  17:19:23,449 - #2 bool
+INFO  17:19:23,449 - #2 sum
+INFO  17:19:23,450 - #15 (
+INFO  17:19:23,450 - #2 int
+INFO  17:19:23,450 - #2 z
+INFO  17:19:23,450 - #17 ,
+INFO  17:19:23,451 - #2 int
+INFO  17:19:23,451 - #2 d
+INFO  17:19:23,451 - #10 )
+INFO  17:19:23,453 - #16 {
+INFO  17:19:23,454 - #31 read
+INFO  17:19:23,454 - #15 (
+INFO  17:19:23,454 - #2 a
+INFO  17:19:23,454 - #10 )
+INFO  17:19:23,456 - #12 ;
+INFO  17:19:23,456 - #18 print
+INFO  17:19:23,456 - #15 (
+INFO  17:19:23,456 - #2 ibool
+INFO  17:19:23,457 - #10 )
+INFO  17:19:23,459 - #12 ;
+INFO  17:19:23,459 - #18 print
+INFO  17:19:23,459 - #15 (
+INFO  17:19:23,459 - #2 ibool
+INFO  17:19:23,459 - #17 ,
+INFO  17:19:23,459 - #3 3
+INFO  17:19:23,459 - #10 )
+INFO  17:19:23,459 - #12 ;
+INFO  17:19:23,459 - #13 return
+INFO  17:19:23,459 - #4 false
+INFO  17:19:23,459 - #12 ;
+INFO  17:19:23,459 - #9 }
+INFO  17:19:23,461 - #19 void
+INFO  17:19:23,461 - #2 krofna
+INFO  17:19:23,462 - #15 (
+INFO  17:19:23,462 - #2 bool
+INFO  17:19:23,462 - #2 masna
+INFO  17:19:23,462 - #17 ,
+INFO  17:19:23,462 - #2 char
+INFO  17:19:23,462 - #2 tigar
+INFO  17:19:23,462 - #17 ,
+INFO  17:19:23,462 - #2 int
+INFO  17:19:23,462 - #2 kaca
+INFO  17:19:23,462 - #24 [
+INFO  17:19:23,462 - #23 ]
+INFO  17:19:23,462 - #10 )
+INFO  17:19:23,462 - #16 {
+INFO  17:19:23,463 - #28 for
+INFO  17:19:23,463 - #15 (
+INFO  17:19:23,463 - #12 ;
+INFO  17:19:23,464 - #12 ;
+INFO  17:19:23,464 - #10 )
+INFO  17:19:23,464 - #16 {
+INFO  17:19:23,464 - #33 continue
+INFO  17:19:23,464 - #12 ;
+INFO  17:19:23,464 - #28 for
+INFO  17:19:23,464 - #15 (
+INFO  17:19:23,464 - #12 ;
+INFO  17:19:23,464 - #12 ;
+INFO  17:19:23,464 - #10 )
+INFO  17:19:23,464 - #16 {
+INFO  17:19:23,466 - #30 break
+INFO  17:19:23,466 - #12 ;
+INFO  17:19:23,466 - #9 }
+INFO  17:19:23,466 - #9 }
+INFO  17:19:23,466 - #13 return
+INFO  17:19:23,466 - #12 ;
+INFO  17:19:23,466 - #9 }
+INFO  17:19:23,467 - #9 }
+INFO  17:19:23,470 - Program(
+  ProgramName(
+   test302
+  ) [ProgramName]
+  Declarations(
+    ConstDeclaration(
+      ConstDecl(
+        Type(
+         int
+        ) [Type]
+       jedan
+        ConstOption1(
+         1
+        ) [ConstOption1]
+        Consts(
+          Const(
+           slavica
+            ConstOption1(
+             5
+            ) [ConstOption1]
+          ) [Const]
+          NoConsts(
+          ) [NoConsts]
+        ) [Consts]
+      ) [ConstDecl]
+    ) [ConstDeclaration]
+    Declarations(
+      ConstDeclaration(
+        ConstDecl(
+          Type(
+           bool
+          ) [Type]
+         kaca
+          ConstOption3(
+           false
+          ) [ConstOption3]
+          NoConsts(
+          ) [NoConsts]
+        ) [ConstDecl]
+      ) [ConstDeclaration]
+      Declarations(
+        ConstDeclaration(
+          ConstDecl(
+            Type(
+             char
+            ) [Type]
+           boza
+            ConstOption2(
+             b
+            ) [ConstOption2]
+            NoConsts(
+            ) [NoConsts]
+          ) [ConstDecl]
+        ) [ConstDeclaration]
+        Declarations(
+          VarDeclaration(
+            VarDecl(
+              Type(
+               int
+              ) [Type]
+             i
+              VarPoss2(
+              ) [VarPoss2]
+              NoVaroviMnozina(
+              ) [NoVaroviMnozina]
+            ) [VarDecl]
+          ) [VarDeclaration]
+          Declarations(
+            VarDeclaration(
+              VarDecl(
+                Type(
+                 bool
+                ) [Type]
+               ibool
+                VarPoss2(
+                ) [VarPoss2]
+                NoVaroviMnozina(
+                ) [NoVaroviMnozina]
+              ) [VarDecl]
+            ) [VarDeclaration]
+            Declarations(
+              VarDeclaration(
+                VarDecl(
+                  Type(
+                   int
+                  ) [Type]
+                 niz2
+                  VarPoss2(
+                  ) [VarPoss2]
+                  NoVaroviMnozina(
+                  ) [NoVaroviMnozina]
+                ) [VarDecl]
+              ) [VarDeclaration]
+              Declarations(
+                VarDeclaration(
+                  VarDecl(
+                    Type(
+                     int
+                    ) [Type]
+                   niz
+                    VarPoss1(
+                    ) [VarPoss1]
+                    VaroviMnozina(
+                      VarElem(
+                       niz_2
+                        VarPoss1(
+                        ) [VarPoss1]
+                      ) [VarElem]
+                      VaroviMnozina(
+                        VarElem(
+                         niz_3
+                          VarPoss2(
+                          ) [VarPoss2]
+                        ) [VarElem]
+                        NoVaroviMnozina(
+                        ) [NoVaroviMnozina]
+                      ) [VaroviMnozina]
+                    ) [VaroviMnozina]
+                  ) [VarDecl]
+                ) [VarDeclaration]
+                Declarations(
+                  VarDeclaration(
+                    VarDecl(
+                      Type(
+                       int
+                      ) [Type]
+                     a
+                      VarPoss2(
+                      ) [VarPoss2]
+                      NoVaroviMnozina(
+                      ) [NoVaroviMnozina]
+                    ) [VarDecl]
+                  ) [VarDeclaration]
+                  NoDeclarations(
+                  ) [NoDeclarations]
+                ) [Declarations]
+              ) [Declarations]
+            ) [Declarations]
+          ) [Declarations]
+        ) [Declarations]
+      ) [Declarations]
+    ) [Declarations]
+  ) [Declarations]
+  MethodDeclarations(
+    MethodDeclaration(
+      MethodOption1(
+        Type(
+         bool
+        ) [Type]
+      ) [MethodOption1]
+      MethodName(
+       sum
+      ) [MethodName]
+      FormOption1(
+        FormPars(
+          Type(
+           int
+          ) [Type]
+         z
+          VarPoss2(
+          ) [VarPoss2]
+          MultipleFormPars(
+            FormPar(
+              Type(
+               int
+              ) [Type]
+             d
+              VarPoss2(
+              ) [VarPoss2]
+            ) [FormPar]
+            NoMultipleFormPars(
+            ) [NoMultipleFormPars]
+          ) [MultipleFormPars]
+        ) [FormPars]
+      ) [FormOption1]
+      NoVaroviLista(
+      ) [NoVaroviLista]
+      Statements(
+        Statement8(
+          Designator(
+            DesignatorName(
+             a
+            ) [DesignatorName]
+            NoIdentOrExpr(
+            ) [NoIdentOrExpr]
+          ) [Designator]
+        ) [Statement8]
+        Statements(
+          Statement9(
+            Expr1(
+              Term(
+                Factor1(
+                  Designator(
+                    DesignatorName(
+                     ibool
+                    ) [DesignatorName]
+                    NoIdentOrExpr(
+                    ) [NoIdentOrExpr]
+                  ) [Designator]
+                ) [Factor1]
+                NoMulopFactors(
+                ) [NoMulopFactors]
+              ) [Term]
+              NoAddopTerms(
+              ) [NoAddopTerms]
+            ) [Expr1]
+          ) [Statement9]
+          Statements(
+            Statement10(
+              Expr1(
+                Term(
+                  Factor1(
+                    Designator(
+                      DesignatorName(
+                       ibool
+                      ) [DesignatorName]
+                      NoIdentOrExpr(
+                      ) [NoIdentOrExpr]
+                    ) [Designator]
+                  ) [Factor1]
+                  NoMulopFactors(
+                  ) [NoMulopFactors]
+                ) [Term]
+                NoAddopTerms(
+                ) [NoAddopTerms]
+              ) [Expr1]
+             3
+            ) [Statement10]
+            Statements(
+              Statement7(
+                Expr1(
+                  Term(
+                    FactorBool(
+                     false
+                    ) [FactorBool]
+                    NoMulopFactors(
+                    ) [NoMulopFactors]
+                  ) [Term]
+                  NoAddopTerms(
+                  ) [NoAddopTerms]
+                ) [Expr1]
+              ) [Statement7]
+              NoStatements(
+              ) [NoStatements]
+            ) [Statements]
+          ) [Statements]
+        ) [Statements]
+      ) [Statements]
+    ) [MethodDeclaration]
+    MethodDeclarations(
+      MethodDeclaration(
+        MethodOption2(
+        ) [MethodOption2]
+        MethodName(
+         krofna
+        ) [MethodName]
+        FormOption1(
+          FormPars(
+            Type(
+             bool
+            ) [Type]
+           masna
+            VarPoss2(
+            ) [VarPoss2]
+            MultipleFormPars(
+              FormPar(
+                Type(
+                 char
+                ) [Type]
+               tigar
+                VarPoss2(
+                ) [VarPoss2]
+              ) [FormPar]
+              MultipleFormPars(
+                FormPar(
+                  Type(
+                   int
+                  ) [Type]
+                 kaca
+                  VarPoss1(
+                  ) [VarPoss1]
+                ) [FormPar]
+                NoMultipleFormPars(
+                ) [NoMultipleFormPars]
+              ) [MultipleFormPars]
+            ) [MultipleFormPars]
+          ) [FormPars]
+        ) [FormOption1]
+        NoVaroviLista(
+        ) [NoVaroviLista]
+        Statements(
+          Statement11(
+            For(
+            ) [For]
+            NoStatementOpt1(
+            ) [NoStatementOpt1]
+            NoStatementOpt2(
+            ) [NoStatementOpt2]
+            NoStatementOpt1(
+            ) [NoStatementOpt1]
+            Statement12(
+              Statements(
+                Statement5(
+                ) [Statement5]
+                Statements(
+                  Statement11(
+                    For(
+                    ) [For]
+                    NoStatementOpt1(
+                    ) [NoStatementOpt1]
+                    NoStatementOpt2(
+                    ) [NoStatementOpt2]
+                    NoStatementOpt1(
+                    ) [NoStatementOpt1]
+                    Statement12(
+                      Statements(
+                        Statement4(
+                        ) [Statement4]
+                        NoStatements(
+                        ) [NoStatements]
+                      ) [Statements]
+                    ) [Statement12]
+                  ) [Statement11]
+                  NoStatements(
+                  ) [NoStatements]
+                ) [Statements]
+              ) [Statements]
+            ) [Statement12]
+          ) [Statement11]
+          Statements(
+            Statement6(
+            ) [Statement6]
+            NoStatements(
+            ) [NoStatements]
+          ) [Statements]
+        ) [Statements]
+      ) [MethodDeclaration]
+      NoMethodDeclarations(
+      ) [NoMethodDeclarations]
+    ) [MethodDeclarations]
+  ) [MethodDeclarations]
+) [Program]
+INFO  17:19:23,470 - ===================================
+INFO  17:19:23,477 - Deklarisan program test302 na liniji 3
+INFO  17:19:23,478 - Deklarisan tip int na liniji 5
+INFO  17:19:23,478 - Deklarisana konstanta slavica jednaka 5 na liniji 5
+INFO  17:19:23,478 - Deklarisana konstanta jedan jednaka 1 na liniji 5
+INFO  17:19:23,478 - Deklarisan tip bool na liniji 7
+INFO  17:19:23,478 - Deklarisana konstanta kaca jednaka false na liniji 7
+INFO  17:19:23,478 - Deklarisan tip char na liniji 9
+INFO  17:19:23,478 - Deklarisana konstanta boza jednaka b na liniji 9
+INFO  17:19:23,478 - Deklarisan tip int na liniji 11
+INFO  17:19:23,479 - Deklarisana varijabla i na liniji 11
+INFO  17:19:23,479 - Deklarisan tip bool na liniji 12
+INFO  17:19:23,479 - Deklarisana varijabla ibool na liniji 12
+INFO  17:19:23,479 - Deklarisan tip int na liniji 14
+INFO  17:19:23,479 - Deklarisana varijabla niz2 na liniji 14
+INFO  17:19:23,479 - Deklarisan tip int na liniji 16
+INFO  17:19:23,479 - Deklarisana varijabla niz_2 na liniji 16
+INFO  17:19:23,479 - Deklarisana varijabla niz_3 na liniji 16
+INFO  17:19:23,479 - Deklarisana varijabla niz na liniji 16
+INFO  17:19:23,479 - Deklarisan tip int na liniji 17
+INFO  17:19:23,480 - Deklarisana varijabla a na liniji 17
+INFO  17:19:23,480 - Deklarisan tip bool na liniji 22
+INFO  17:19:23,480 - Deklarisana metoda je odredjenog tipa: bool na liniji 22
+INFO  17:19:23,480 - Deklarisana metoda pocetak: sum na liniji 22
+INFO  17:19:23,480 - Deklarisan tip int na liniji 22
+INFO  17:19:23,480 - Deklarisan tip int na liniji 22
+INFO  17:19:23,480 - Deklarisan parametar metode: d na liniji 22
+INFO  17:19:23,480 - Deklarisan parametar metode: z na liniji 22
+INFO  17:19:23,480 - Read promenljive: a na liniji 24
+INFO  17:19:23,481 - Deklarisan 1 faktor terma :  na liniji 25
+ERROR 17:19:23,481 - Greska na liniji 25 : print se koristi samo za tip int, char ili bool
+INFO  17:19:23,481 - Deklarisan 1 faktor terma :  na liniji 26
+ERROR 17:19:23,481 - Greska na liniji 26 : print se koristi samo za tip int, char ili bool
+INFO  17:19:23,481 - Deklarisan bool factor : false na liniji 27
+INFO  17:19:23,481 - Deklarisan 1 faktor terma :  na liniji 27
+INFO  17:19:23,481 - Deklarisan return expr :  na liniji 27
+INFO  17:19:23,481 - Deklarisana metoda kraj:  sum na liniji 22
+INFO  17:19:23,481 - Deklarisana metoda je tipa void: 
+INFO  17:19:23,481 - Deklarisana metoda pocetak: krofna na liniji 29
+INFO  17:19:23,481 - Deklarisan tip bool na liniji 29
+INFO  17:19:23,481 - Deklarisan tip char na liniji 29
+INFO  17:19:23,481 - Deklarisan parametar metode: tigar na liniji 29
+INFO  17:19:23,481 - Deklarisan tip int na liniji 29
+INFO  17:19:23,481 - Deklarisan parametar metode: kaca na liniji 29
+INFO  17:19:23,481 - Deklarisan parametar metode: masna na liniji 29
+INFO  17:19:23,481 - Otvorena for petlja: 
+INFO  17:19:23,482 - Deklarisana continue naredba: 
+INFO  17:19:23,482 - Otvorena for petlja: 
+INFO  17:19:23,482 - Deklarisana break naredba: 
+INFO  17:19:23,482 - Zatvorena for petlja:  na liniji 32
+INFO  17:19:23,482 - Zatvorena for petlja:  na liniji 30
+INFO  17:19:23,482 - Deklarisana return naredba: 
+INFO  17:19:23,482 - Deklarisana metoda kraj:  krofna na liniji 29
+INFO  17:19:23,482 - Zavrsen program test302 na liniji 3

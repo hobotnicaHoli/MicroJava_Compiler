@@ -1,0 +1,10 @@
+INFO  15:45:21,694 - Compiling source file: C:\Users\Katarina\Desktop\pp1lab.templateAST\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  15:45:21,705 - #2 program
+INFO  15:45:21,706 - #3 Program
+INFO  15:45:21,706 - #18 namespace
+INFO  15:45:21,706 - #3 glovo
+INFO  15:45:21,706 - #13 {
+INFO  15:45:21,706 - #23 [
+ERROR 15:45:21,707 - 
+Sintaksna greska na liniji 3
+ERROR 15:45:21,707 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 3

@@ -1,0 +1,33 @@
+INFO  17:55:56,541 - Compiling source file: C:\Users\Katarina\Desktop\pp1lab.templateAST\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  17:55:56,576 - #2 program
+INFO  17:55:56,576 - #3 Program
+INFO  17:55:56,577 - #18 namespace
+INFO  17:55:56,577 - #3 glovo
+INFO  17:55:56,577 - #13 {
+INFO  17:55:56,577 - #3 varka
+INFO  17:55:56,577 - #44 :
+INFO  17:55:56,577 - #44 :
+INFO  17:55:56,578 - #3 var1
+INFO  17:55:56,578 - #3 varnica
+INFO  17:55:56,580 - #23 [
+INFO  17:55:56,580 - #22 ]
+INFO  17:55:56,580 - #14 ,
+INFO  17:55:56,582 - #3 varnica2
+INFO  17:55:56,582 - #23 [
+INFO  17:55:56,582 - #22 ]
+INFO  17:55:56,582 - #9 ;
+INFO  17:55:56,584 - #13 {
+INFO  17:55:56,587 - #17 void
+INFO  17:55:56,587 - #3 Method1
+INFO  17:55:56,594 - #12 (
+INFO  17:55:56,594 - #7 )
+INFO  17:55:56,595 - #3 varcic
+INFO  17:55:56,596 - #3 VARKO
+INFO  17:55:56,596 - #23 [
+INFO  17:55:56,597 - #22 ]
+INFO  17:55:56,597 - #9 ;
+INFO  17:55:56,597 - #13 {
+INFO  17:55:56,598 - #3 Statement1
+ERROR 17:55:56,599 - 
+Sintaksna greska na liniji 8
+ERROR 17:55:56,599 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 8
